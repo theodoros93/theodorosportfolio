@@ -199,7 +199,18 @@
 		</div>
 
 	</section> 
-
+        <script>
+$(document).ready(function(){
+	$.fn.snow({
+		minSize: 5, // Minimumsize of the snowflake (px)
+		maxSize: 25, // Maximum size of the snowflake (px)
+		newOn: 350, // Frequency they fall (ms)
+		flakeColor: '#FFF' // Colour of the snowflake
+	});
+});
+</script>
 	<script type="text/javascript" src="script.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//static.madebymagnitude.com/javascript/jQuery.snow.min.js"></script>
 </body>
 </html>
